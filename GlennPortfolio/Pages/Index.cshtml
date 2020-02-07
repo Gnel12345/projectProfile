@@ -1,0 +1,105 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<head>
+    <title>
+        Glenns Projects
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+
+    <div id="top" class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div id="name">
+                <img id="g" src="~/images/G.jpg">
+                <img id="l" src="~/images/L.jpg">
+                <img id="e" src="~/images/E.jpg">
+                <img id="n1" src="~/images/N1.jpg">
+                <img id="n2" src="~/images/N2.jpg">
+            </div>
+            <img id="picture" src="~/images/me.jpg">
+            <h1>
+                <p id="title" class="lead" align="center">
+                    <span class="txt-rotate"
+                          data-period="2000"
+                          data-rotate='[ "Hello.", "Welcome to my projects page","click on the pictures below to see more" ]'></span>
+            </h1>
+            </p>
+        </div>
+    </div>
+
+    <div id="bottom" class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h2 id="TestingCategory" class="col-lg-4">Gmail Test w/Selenium Webdriver/Java</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="~/images/GmailTest.mp4"><img id="syc" src="~/images/GmailTest.bmp"></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="bottom" class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2 id="TestingCategory" class="col-lg-4">Functional Testing w/Selenium Webdriver/Java</h1>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a href="https://shareyourcamp.herokuapp.com/"><img id="syc" src="~/images/Share Your Camp.bmp"></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="~/images/ShareYourCampChromeTest.mp4"><img id="sycct" src="~/images/shareyourcampchrometest.bmp"></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <a href="~/images/ShareYourCampFirefoxTest.mp4"><img id="sycfft" src="~/images/shareyourcampfirefoxtest.bmp"></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="~/images/ShareYourCampIETest.mp4"><img id="syciet" src="~/images/ShareYourCampInternetExplorerTest.bmp"></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="~/images/ShareYourCampOperaTest.mp4"><img id="sycopt" src="~/images/ShareYourCampOperaTest.bmp"></a>
+                </div>
+                <div class="col-lg-4">
+                    <a href="~/images/shareyourcampandroidtest.mp4"><img id="sycat" src="~/images/shareyourcampandroidtest.bmp"></a>
+
+                </div>
+            </div>
+            <h2 id="TestingCategory">Performance Testing w/JMeter</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="~/images/ShareYourCampJMeterTest.mp4"><img id="syciet" src="~/images/ShareYourCampJMeterTest.bmp"></a>
+                </div>
+            </div>
+            <h2 id="TestingCategory">Database Testing w/Eclipse</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="~/images/ShareYourCampDatabaseTest.mp4"><img id="syciet" src="~/images/ShareYourCampDatabaseTest.bmp"></a>
+                </div>
+            </div>
+            <h2 id="TestingCategory">Continous Integration w/Jenkins</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <a href="~/images/Jenkins.mp4"><img id="syciet" src="~/images/Jenkins.bmp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../js/main.js"></script>
+</body>

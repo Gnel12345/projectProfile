@@ -1,0 +1,265 @@
+
+
+
+#picture{
+   border-radius:50%;
+   width: 100px;
+   height: 100px;
+   margin-left: auto;
+   margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#name{
+    animation-name: name;
+    animation-duration: 10s;
+    margin-left: 43%;
+    margin-right: 5%;
+    display: block;
+
+}
+@media (max-width:500px){
+  #name{
+    animation-name: name;
+    animation-duration: 10s;
+    margin-left: 26%;
+    margin-right: 5%;
+    display: block;
+
+}  
+
+}
+#title{
+    color: red;
+}
+
+#g{
+   border-radius:50%;
+   width:30px;
+   height:30px;
+   
+   max-width: 100%;
+    max-height: 100%;
+    
+   
+    
+    
+}
+#l{
+    border-radius:50%;
+   width:30px;
+   height:30px;
+   max-width: 100%;
+    max-height: 100%;
+    animation-duration: 10s;
+    animation-name: n4;
+    
+    
+}
+#e{
+    border-radius:50%;
+   width:30px;
+   height:30px;
+   max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+#n1{
+    border-radius:50%;
+   width:30px;
+   height:30px;
+   max-width: 100%;
+    max-height: 100%;
+    animation-name: n4;
+    animation-duration: 5s;
+    
+}
+#n2{
+    border-radius:50%;
+   width:30px;
+   height:30px;
+   max-width: 100%;
+    max-height: 100%;
+    
+    
+}
+
+
+@keyframes name{
+  
+   10%{
+       margin-left: 0%;
+       transform: rotate(0deg);
+       
+   }
+   20%{
+      margin-left: 100%;
+       transform: rotate(360deg);
+   }
+   30%{
+       margin-top: 10%;
+       transform: 180%;
+   }
+}
+@keyframes n4{
+    40%{
+        transform:rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+}
+
+#top{
+    background-image:url("../images/blackhole.jpg");
+    opacity: .8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    
+    
+}
+
+#bodyindex{
+     background-image: url("https://www.disruptsports.com/wp-content/uploads/2016/05/space.jpg") ;
+     background-repeat: no-repeat;
+     background-size:cover;
+     max-width: 100%;
+    max-height: 100%;
+     
+}
+#TestingCategory{
+    color:red;
+}
+#syc{
+    width: auto;
+   height: auto;
+   margin: auto auto 30px auto;
+   padding-top: 0px;
+   
+   border-radius: 20px;
+   max-width: 100%;
+   
+     
+   
+}
+.item1 {
+    vertical-align: top;
+    display: inline-block;
+    width: 120px;
+    margin-top: 0px;
+    padding-top: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#sycct{
+    width: auto;
+   height: auto;
+   margin: auto auto 30px auto;
+   padding: auto auto auto auto;
+   
+  
+   display:block;
+  
+  
+   border-radius: 20px;
+   max-width: 100%;
+  
+  
+   
+}
+#sycfft{
+width: auto;
+   height: auto;
+   margin: auto auto 30px auto;
+   display:block;
+   margin-top: 0px;
+   padding-top: 0px;
+   
+   border-radius: 20px;
+   max-width: 100%;
+   
+    
+}
+#syciet{
+    width: auto;
+   height: auto;
+   margin: auto auto 30px auto;
+   display:block;
+   
+   padding-top: 0px;
+   border-radius: 20px;
+   max-width: 100%;
+   
+  
+}
+#sycopt{
+    width: auto;
+   height: auto;
+  
+   display:block;
+  
+   border-radius: 20px;
+   max-width: 100%;
+   margin: auto auto 30px auto;
+   padding: auto auto auto auto;
+  
+   
+}
+#sycat{
+   width: auto;
+   margin: auto auto 30px auto;
+   display:block;
+  
+   padding-top: 0px;
+   border-radius: 20px;
+   max-width: 100%;
+   
+   
+}
+
+.item2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 120px;
+    margin-top: 0px;
+    padding-top: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.caption2 {
+    
+    display: block;
+    color: red;
+    margin-left: 300px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#bottom{
+    width:auto;
+    height: auto;
+    max-width: 100%;
+   background-color: black;
+   margin-bottom: 0%;
+   padding-bottom: 0%;
+}
+
+
+
+
+
+  
+
+h1{
+  font-weight: 200;
+  margin: 0.4em 0;
+  font-size: 3.5em;
+}
+
+
